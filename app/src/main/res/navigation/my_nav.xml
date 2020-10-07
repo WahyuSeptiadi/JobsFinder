@@ -6,27 +6,27 @@
     app:startDestination="@id/homeFragment">
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.codeart.jobsfinder.HomeFragment"
+        android:name="com.codeart.jobsfinder.Fragment.HomeFragment"
         android:label="Home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/favoriteFragment"
-        android:name="com.codeart.jobsfinder.favoriteFragment"
+        android:name="com.codeart.jobsfinder.Fragment.favoriteFragment"
         android:label="Favorite"
         tools:layout="@layout/fragment_favorite" />
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.codeart.jobsfinder.searchFragment"
+        android:name="com.codeart.jobsfinder.Fragment.searchFragment"
         android:label="Search"
         tools:layout="@layout/fragment_search" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.codeart.jobsfinder.profileFragment"
+        android:name="com.codeart.jobsfinder.Fragment.profileFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/createJobFragment"
-        android:name="com.codeart.jobsfinder.createJobFragment"
+        android:name="com.codeart.jobsfinder.Fragment.createJobFragment"
         android:label="Create Job"
         tools:layout="@layout/fragment_create_job" />
 </navigation>
